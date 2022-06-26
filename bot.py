@@ -27,11 +27,11 @@ async def cancel(event):
 async def start(event):
   await event.reply("Hi I'm @ElectraTagger I was created to search all contacts in chat.\nMerhaba! Grubunuzdaki Kullanıcıları Etiketlemek İçin Yaratıldım. Beni Grubunuza Ekleyin ve Gerisini Bana Bırakın.",
                     buttons=(
-                      [Button.url('➕Beni Bir Gruba Ekle➕', 'http://t.me/ElectraTaggerBot?startgroup=a'),],
-                      [ Button.url('🔥Grup', 'https://t.me/SohbetGaribanlarTr'),],
-                      [ Button.url('🔥sahip ', 'https://t.me/magandasahip'),],
-                      [  Button.url('🔥Reklam ', 'https://t.me/magandasahip'),],
-                     [ Button.url('📣resmi kanal', 'https://t.me/electraresmi')]
+                      [Button.url('➕Beni Bir Gruba Ekle➕', 'http://t.me/WhiteTagerBot?startgroup=a'),],
+                      [ Button.url('🔥Grup', 'https://t.me/Sohbetikatarsis'),],
+                      [ Button.url('🔥sahip ', 'https://t.me/memokra'),],
+                      [  Button.url('🔥Reklam ', 'https://t.me/memokra'),],
+                     [ Button.url('📣resmi kanal', 'https://t.me/sohbetkatarsis')]
                     ),
                     link_preview=False
                    )
@@ -44,9 +44,9 @@ async def help(event):
 ❕ Yalnızca yöneticileri bu komutları kullanabilir."""
   await event.reply(helptext,
                     buttons=(
-                      [Button.url('➕Beni Bir Gruba Ekle➕', 'https://t.me/ElectraTaggerbot?startgroup=a'),
-                       Button.url('🎛️Grup', 'https://t.me/SohbetGaribanlarTr'),
-                      Button.url('📣resmi kanal', 'https://t.me/ElectraResmi')]
+                      [Button.url('➕Beni Bir Gruba Ekle➕', 'https://t.me/WhiteTagerBot?startgroup=a'),
+                       Button.url('🎛️Grup', 'https://t.me/Sohbetikatarsis'),
+                      Button.url('📣resmi kanal', 'https://t.me/sohbetkatarsis')]
                     ),
                     link_preview=False
                    )    
